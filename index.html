@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Overvest - Investimentos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark custom-navbar">
+        <div class="container-fluid">
+           
+            <a class="navbar-brand" href="index.html">Overvest</a>
+
+            <!-- Botão menu mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Itens do menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Minha Conta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Meus Cartões</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Extrato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reserva de Emergência</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO -->
+    <div class="container my-5 p-4 bg-white rounded shadow">
+        <h2 class="text-center mb-4">Área de Investimentos</h2>
+
+        <!-- SALDO -->
+        <div class="text-center mb-5">
+            <h5>Saldo disponível para investir:</h5>
+            <h2 class="text-success">R$ 2.500,00</h2>
+        </div>
+
+        <!-- CARDS DE INVESTIMENTOS -->
+        <div class="container mt-4">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-renda position-relative text-white text-center p-3">
+                        <div class="card-content">
+                            <h3>Renda Fixa</h3>
+                            <p>Ideal para quem busca segurança e previsibilidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-acoes position-relative text-white text-center p-3">
+                        <div class="card-content">
+                            <h3>Ações</h3>
+                            <p>Invista em empresas e tenha retorno a longo prazo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-cripto position-relative text-white text-center p-3">
+                        <div class="card-content">
+                            <h3>Criptomoedas</h3>
+                            <p>Alta volatilidade e grandes oportunidades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOTÃO GERAL -->
+        <div class="text-center mt-5">
+            <button class="btn btn-primary btn-lg">Ver Meus Investimentos</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
